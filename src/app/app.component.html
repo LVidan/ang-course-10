@@ -1,3 +1,17 @@
 <div class="container">
-	<h2>Alo</h2>
+	<h2>Practice Pipes in Angular</h2>
+	<hr>
+	<app-pipe-playground></app-pipe-playground>
+	<hr>
+	<h2>Custom Pipe ArrayToString</h2>
+	<hr>
+	<ng-container *ngFor="let user of users">
+		<ul>
+			<li>{{ user.id }}</li>
+			<li>{{ user.firstName }}</li>
+			<li>{{ user.lastName }}</li>
+		</ul>
+	</ng-container>
+	<hr>
+	<h4>{{ users | arrToString }}</h4>
 </div>
