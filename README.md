@@ -1,17 +1,13 @@
 # Angular Domaci 10
 
-- Postaviti na drive-u odgovore na pitanja koja su bila data za domaći na raspustu.
-
-1. Završiti domaći od prethodnog časa.
-
-2. Postoje 2 promenljive:
+1. Postoje 2 promenljive:
    broj: number = 5.57;
    broj2: number = 798.551949;
 
 Prikazati obe promenljive u html-u, koristeći number pipe, i isto pravilo u oba prikaza, tako da se dobije sledeći output.
 05.570 i 798.55195
 
-3. Napraviti pipe arrToStr.
+2. Napraviti pipe arrToStr.
    Pipe očekuje da mu se prosledi niz usera (svaki ima firstName, lastName i id), a on vraća string gde su korisnici odvojeni zarezima i razmakom.
 
 Npr za prosleđen niz:
